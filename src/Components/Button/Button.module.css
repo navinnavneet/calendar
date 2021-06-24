@@ -1,0 +1,24 @@
+.Button {
+  color: #192965;
+  background: #f0efef;
+  margin: 3rem auto 2rem;
+  font-size: 1.1rem;
+  padding: 6px 12px;
+  border: 2px solid #192965;
+  border-radius: 4px;
+  text-transform: capitalize;
+  transition: all 0.2s ease-out;
+}
+
+.Button:hover {
+  color: #f0efef;
+  background: #192965;
+  cursor: pointer;
+}
+
+@media (min-width: 750px) {
+  .Button {
+    font-size: 1.3rem;
+    padding: 8px 16px;
+  }
+}

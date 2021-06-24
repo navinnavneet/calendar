@@ -1,0 +1,51 @@
+.Week {
+  width: 315px;
+  display: flex;
+}
+
+.Day {
+  width: 45px;
+  height: 45px;
+  border: 1px solid #bbcfff;
+}
+
+.Day:hover {
+  cursor: pointer;
+  background: #f0efef;
+  color: #707cac;
+}
+
+.Day h3 {
+  font-size: 1rem;
+}
+
+.ColorSame {
+  color: #192965;
+}
+
+.ColorDifferent {
+  color: #707cac;
+}
+
+.SelectedDay {
+  color: #f0efef;
+  background: #192965 !important;
+}
+
+.Sunday {
+  background: #fae3fc;
+}
+
+@media (min-width: 750px) {
+  .Week {
+    width: 700px;
+  }
+
+  .Day {
+    width: 100px;
+  }
+
+  .ColorDifferent {
+    color: #707cac;
+  }
+}

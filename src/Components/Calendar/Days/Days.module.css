@@ -1,0 +1,40 @@
+.Days {
+  width: 315px;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  justify-items: center;
+}
+
+.Day {
+  width: 45px;
+  background: #192965;
+  color: #f0efef;
+  border: 1px solid #bbcfff;
+  box-sizing: border-box;
+  height: 1.4rem;
+}
+.Day p {
+  font-size: 0.8rem;
+  margin: 0;
+  transform: translateY(2px);
+  font-weight: 700;
+}
+
+@media (min-width: 750px) {
+  .Days {
+    width: 700px;
+  }
+
+  .Day {
+    width: 100px;
+    height: 2rem;
+  }
+
+  .Day p {
+    font-size: 1.3rem;
+    margin: 0;
+    transform: translateY(3px);
+    font-weight: 700;
+  }
+}

@@ -1,0 +1,50 @@
+.Calendar {
+  width: 315px;
+  border: 2px solid #bbcfff;
+  border-radius: 3px;
+  margin: 1rem auto;
+  display: flex;
+  flex-direction: column;
+}
+.Header {
+  width: 100%;
+  height: 2.2rem;
+  display: flex;
+  justify-content: space-between;
+}
+.Header button {
+  color: #192965;
+  background: none;
+  border: none;
+  font-size: 1.3rem;
+  transform: translateY(3px);
+  transition: all 0.2s ease-out;
+}
+.Header button:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+.Header h3 {
+  text-transform: capitalize;
+  color: #192965;
+  font-weight: 800;
+  font-size: 1.1rem;
+  transform: translateY(-10px);
+}
+
+@media (min-width: 750px) {
+  .Calendar {
+    width: 700px;
+    border-radius: 5px;
+  }
+  .Header {
+    width: 100%;
+    height: 3.5rem;
+  }
+  .Header button {
+    font-size: 1.5rem;
+  }
+  .Header h3 {
+    font-size: 1.5rem;
+  }
+}
